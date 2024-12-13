@@ -2,7 +2,7 @@ const getProjectsData = (req, res) => {
     res.status(200).json({
       projects: [
         {
-          title: 'My Portfolio Website',
+          title: 'My Portfolio Website.',
           description: [
             "This portfolio site displays my development projects and skills, featuring an interactive UI built with React.",
             "The backend uses Node.js and Express to serve dynamic content, showcasing scalable and maintainable full-stack capabilities.",
